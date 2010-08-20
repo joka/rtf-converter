@@ -1,0 +1,116 @@
+# Microsoft Developer Studio Generated Dependency File, included by rtf.mak
+
+.\bodydestination.cpp : \
+	".\BodyDestination.h"\
+	".\charoutput.h"\
+	".\charsource.h"\
+	".\Destination.h"\
+	".\GraphicState.h"\
+	".\htmlcodes.h"\
+	".\stylemap.h"\
+	".\Tag.h"\
+	".\Token.h"\
+	".\Tokeniser.h"\
+	
+
+.\charoutput.cpp : \
+	".\charoutput.h"\
+	
+
+.\charsource.cpp : \
+	".\charsource.h"\
+	
+
+.\destination.cpp : \
+	".\Destination.h"\
+	".\Token.h"\
+	
+
+.\filecharsource.cpp : \
+	".\charsource.h"\
+	".\FileCharSource.h"\
+	
+
+.\graphicstate.cpp : \
+	".\GraphicState.h"\
+	".\Tag.h"\
+	
+
+.\ignoredestination.cpp : \
+	".\charsource.h"\
+	".\Destination.h"\
+	".\IgnoreDestination.h"\
+	".\Token.h"\
+	".\Tokeniser.h"\
+	
+
+.\infodestination.cpp : \
+	".\charsource.h"\
+	".\Destination.h"\
+	".\InfoDestination.h"\
+	".\Token.h"\
+	".\Tokeniser.h"\
+	
+
+.\rtfparser.cpp : \
+	".\BodyDestination.h"\
+	".\charoutput.h"\
+	".\charsource.h"\
+	".\Destination.h"\
+	".\GraphicState.h"\
+	".\IgnoreDestination.h"\
+	".\InfoDestination.h"\
+	".\rtfparser.h"\
+	".\stylemap.h"\
+	".\StyleSheetDestination.h"\
+	".\Tag.h"\
+	".\Token.h"\
+	".\Tokeniser.h"\
+	
+
+.\rtftohtml.cpp : \
+	".\BodyDestination.h"\
+	".\charoutput.h"\
+	".\charsource.h"\
+	".\Destination.h"\
+	".\FileCharSource.h"\
+	".\GraphicState.h"\
+	".\IgnoreDestination.h"\
+	".\InfoDestination.h"\
+	".\rtfparser.h"\
+	".\stylemap.h"\
+	".\StyleSheetDestination.h"\
+	".\Tag.h"\
+	".\Token.h"\
+	".\Tokeniser.h"\
+	
+
+.\stylemap.cpp : \
+	".\stylemap.h"\
+	".\Tag.h"\
+	
+
+.\stylesheetdestination.cpp : \
+	".\charsource.h"\
+	".\Destination.h"\
+	".\stylemap.h"\
+	".\StyleSheetDestination.h"\
+	".\Tag.h"\
+	".\Token.h"\
+	".\Tokeniser.h"\
+	
+
+.\tag.cpp : \
+	".\Tag.h"\
+	
+
+.\token.cpp : \
+	".\Token.h"\
+	
+
+.\tokeniser.cpp : \
+	".\charsource.h"\
+	".\rtftokens.h"\
+	".\Token.h"\
+	".\Tokeniser.h"\
+	

@@ -1,0 +1,14 @@
+#!/bin/sh
+for file in $(ls *.cpp *.h) 
+do
+	COPY_NOTICE="`head --bytes=11 $file`"
+	if [ "$COPY_NOTICE" = "/*Copyright" ]
+	then
+		echo $file already has a copyright notice
+	else
+		sed s/qazfilenameqaz/${file}/ copy-header > $file.cvt
+ 		cat $file >> $file.cvt
+		mv $file.cvt $file
+
+	fi
+done

@@ -1,0 +1,6 @@
+#!/bin/sh
+for file in $(ls *.cpp *.h) 
+do
+	cat $file | tr -d '\r' > $file.cvt
+	mv $file.cvt $file
+done

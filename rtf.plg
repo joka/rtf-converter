@@ -1,0 +1,111 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: rtf - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\GREG~1.BUT\LOCALS~1\Temp\RSP4E4.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Release/" /Fp"Release/rtf.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\dev\rtf\bodydestination.cpp"
+"Z:\dev\rtf\charoutput.cpp"
+"Z:\dev\rtf\charsource.cpp"
+"Z:\dev\rtf\destination.cpp"
+"Z:\dev\rtf\filecharsource.cpp"
+"Z:\dev\rtf\graphicstate.cpp"
+"Z:\dev\rtf\ignoredestination.cpp"
+"Z:\dev\rtf\infodestination.cpp"
+"Z:\dev\rtf\linktracker.cpp"
+"Z:\dev\rtf\rtfparser.cpp"
+"Z:\dev\rtf\rtftohtml.cpp"
+"Z:\dev\rtf\stylemap.cpp"
+"Z:\dev\rtf\stylesheetdestination.cpp"
+"Z:\dev\rtf\tag.cpp"
+"Z:\dev\rtf\token.cpp"
+"Z:\dev\rtf\tokeniser.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\GREG~1.BUT\LOCALS~1\Temp\RSP4E4.tmp" 
+Creating temporary file "D:\DOCUME~1\GREG~1.BUT\LOCALS~1\Temp\RSP4E5.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/rtf.pdb" /machine:I386 /out:"Release/rtf.exe" 
+.\Release\bodydestination.obj
+.\Release\charoutput.obj
+.\Release\charsource.obj
+.\Release\destination.obj
+.\Release\filecharsource.obj
+.\Release\graphicstate.obj
+.\Release\ignoredestination.obj
+.\Release\infodestination.obj
+.\Release\linktracker.obj
+.\Release\rtfparser.obj
+.\Release\rtftohtml.obj
+.\Release\stylemap.obj
+.\Release\stylesheetdestination.obj
+.\Release\tag.obj
+.\Release\token.obj
+.\Release\tokeniser.obj
+]
+Creating command line "link.exe @D:\DOCUME~1\GREG~1.BUT\LOCALS~1\Temp\RSP4E5.tmp"
+<h3>Output Window</h3>
+Compiling...
+bodydestination.cpp
+charoutput.cpp
+charsource.cpp
+destination.cpp
+filecharsource.cpp
+graphicstate.cpp
+ignoredestination.cpp
+infodestination.cpp
+linktracker.cpp
+rtfparser.cpp
+rtftohtml.cpp
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(48) : warning C4786: '??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@IABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@ABV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        Z:\dev\rtf\infodestination.h(43) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(61) : warning C4786: '??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@0ABV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        Z:\dev\rtf\infodestination.h(43) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(103) : warning C4786: '?rbegin@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AV?$reverse_iterator@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@AAV12@PAV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        Z:\dev\rtf\infodestination.h(43) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(105) : warning C4786: '?rbegin@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBE?AV?$reverse_iterator@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@ABV12@PBV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        Z:\dev\rtf\infodestination.h(43) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(107) : warning C4786: '?rend@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AV?$reverse_iterator@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@AAV12@PAV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        Z:\dev\rtf\infodestination.h(43) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(108) : warning C4786: '?rend@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBE?AV?$reverse_iterator@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@ABV12@PBV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        Z:\dev\rtf\infodestination.h(43) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+stylemap.cpp
+stylesheetdestination.cpp
+tag.cpp
+token.cpp
+tokeniser.cpp
+Linking...
+Creating temporary file "D:\DOCUME~1\GREG~1.BUT\LOCALS~1\Temp\RSP4E7.tmp" with contents
+[
+/nologo /o"Release/rtf.bsc" 
+.\Release\bodydestination.sbr
+.\Release\charoutput.sbr
+.\Release\charsource.sbr
+.\Release\destination.sbr
+.\Release\filecharsource.sbr
+.\Release\graphicstate.sbr
+.\Release\ignoredestination.sbr
+.\Release\infodestination.sbr
+.\Release\linktracker.sbr
+.\Release\rtfparser.sbr
+.\Release\rtftohtml.sbr
+.\Release\stylemap.sbr
+.\Release\stylesheetdestination.sbr
+.\Release\tag.sbr
+.\Release\token.sbr
+.\Release\tokeniser.sbr]
+Creating command line "bscmake.exe @D:\DOCUME~1\GREG~1.BUT\LOCALS~1\Temp\RSP4E7.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+rtf.exe - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,62 @@
+From root  Thu May 10 02:40:15 2001
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by taiao.reddfish.co.nz (8.9.3/8.8.7) with internal id CAA14009;
+	Thu, 10 May 2001 02:40:14 +1200
+Date: Thu, 10 May 2001 02:40:14 +1200
+From: Mail Delivery Subsystem <MAILER-DAEMON@taiao.reddfish.co.nz>
+Message-Id: <200105091440.CAA14009@taiao.reddfish.co.nz>
+To: root@taiao.reddfish.co.nz
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="CAA14009.989419214/taiao.reddfish.co.nz"
+Subject: Returned mail: User unknown
+Auto-Submitted: auto-generated (failure)
+Status: R
+
+This is a MIME-encapsulated message
+
+--CAA14009.989419214/taiao.reddfish.co.nz
+
+The original message was received at Thu, 10 May 2001 02:40:14 +1200
+from root@localhost
+
+   ----- The following addresses had permanent fatal errors -----
+greg.ford@clear.net.nz
+
+   ----- Transcript of session follows -----
+... while talking to marion.reddfish.co.nz.:
+>>> RCPT To:<greg.ford@clear.net.nz>
+<<< 550 Relaying is prohibited
+550 greg.ford@clear.net.nz... User unknown
+
+--CAA14009.989419214/taiao.reddfish.co.nz
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; taiao.reddfish.co.nz
+Arrival-Date: Thu, 10 May 2001 02:40:14 +1200
+
+Final-Recipient: RFC822; greg.ford@clear.net.nz
+Action: failed
+Status: 5.1.1
+Remote-MTA: DNS; marion.reddfish.co.nz
+Diagnostic-Code: SMTP; 550 Relaying is prohibited
+Last-Attempt-Date: Thu, 10 May 2001 02:40:14 +1200
+
+--CAA14009.989419214/taiao.reddfish.co.nz
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by taiao.reddfish.co.nz (8.9.3/8.8.7) id CAA14006
+	for greg.ford@clear.net.nz; Thu, 10 May 2001 02:40:14 +1200
+Date: Thu, 10 May 2001 02:40:14 +1200
+From: root <root>
+Message-Id: <200105091440.CAA14006@taiao.reddfish.co.nz>
+To: greg.ford@clear.net.nz
+Subject: Sample of bouncy messages
+
+This is the message
+
+--CAA14009.989419214/taiao.reddfish.co.nz--
+
