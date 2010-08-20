@@ -17,6 +17,7 @@
 // rtftohtml.cpp
 
 #include <string>
+#include <cstring>
 #include <vector>
 #include <stack>
 #include <iostream>

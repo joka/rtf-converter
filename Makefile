@@ -1,4 +1,4 @@
-PROJECT_DIR = /home/kaitiaki/rtf/
+PROJECT_DIR = /opt/rtf-converter/
 
 IDE_WORKING_DIR = $(PROJECT_DIR)
 IDE_BLIND_INCLUDES = -I- -I./ -Iinclude -I$(PROJECT_DIR) 

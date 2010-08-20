@@ -22,11 +22,11 @@
 using namespace std ;
 
 #include "ctype.h"
-
+#include <stdlib.h>
 #include "charsource.h"	// 
 #include "token.h"
 #include "tokeniser.h"
-
+#include <cstring>
 #include "rtftokens.h"
 
 //////////////////////////////////////////////////////////////////////
